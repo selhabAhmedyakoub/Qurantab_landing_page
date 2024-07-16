@@ -13,7 +13,7 @@ This project is a well-designed, user-friendly landing page for a browser extens
 - **SASS:** enhance the development process and make stylesheets more maintainable
 
 ## Screenshot
-![](Screenshot.png)
+![](screenshot.png)
 
 ## Acknowledgements
 - **Almadrsa Diploma:** For providing comprehensive front-end development training.
