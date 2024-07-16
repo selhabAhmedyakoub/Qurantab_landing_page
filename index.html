@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <title>Quran Tab</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__right">
+          <img
+            class="header__right-logo"
+            src="./images/logo.png"
+            alt="quran tab logo"
+          />
+          <p class="header__right-title">Quran Tab</p>
+        </div>
+        <div class="header__left">
+          <a class="header__left--menu" href="#features">Features</a>
+          <a class="header__left--menu" href="#download">Download</a>
+          <a class="header__left--menu" href="#faq">FAQ</a>
+        </div>
+      </header>
+      <section class="section">
+        <div class="section__content">
+          <h1 class="section__title1">Get closer to the holy Quran</h1>
+          <p class="section__text">
+            A Chrome extension that replaces your new tab with a random ayah
+            from the Quran. It keeps you inspired by a verse from the Quran
+            every time you open a new tab.
+          </p>
+          <div class="section__buttons">
+            <a
+              class="section__button button"
+              target="_blank"
+              href="https://bit.ly/qt-chrome"
+              >Get it on Chrome</a
+            >
+            <a
+              class="section__button button button--secondary"
+              target="_blank"
+              href="https://bit.ly/qt-edge"
+            >
+              Get it on Edge
+            </a>
+          </div>
+        </div>
+        <div class="section__img">
+          <img
+            class="section__img-screen"
+            src="./images/screen-1.png"
+            alt="Quran tab's screen"
+          />
+        </div>
+      </section>
+      <div class="section" id="features">
+        <div class="section__img">
+          <img
+            class="section__img-screen"
+            src="./images/screen-2.png"
+            alt="Quran tab's first feature"
+          />
+        </div>
+        <div class="section__content">
+          <h2 class="section__title">+15 Translations</h2>
+          <p class="section__text">
+            Quran Tab supports more than 15 translations of the Quran. You can
+            choose your favorite translation from the settings page. You can
+            also choose to show the translation or not. It's all up to you.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section__content">
+          <h2 class="section__title">Track What’s New</h2>
+          <p class="section__text">
+            Quran Tab keeps you updated with the latest features and updates.
+            You can check the changelog from the settings page, What's New tab.
+          </p>
+        </div>
+        <div class="section__img">
+          <img
+            class="section__img-screen"
+            src="./images/screen-3.png"
+            alt="Quran tab's track what's new feature"
+          />
+        </div>
+      </div>
+      <div class="section">
+        <div class="section__img">
+          <img
+            class="section__img-screen"
+            src="./images/screen-3.png"
+            alt="Quran tab's first feature"
+          />
+        </div>
+        <div class="section__content">
+          <h2 class="section__title">Fully English support</h2>
+          <p class="section__text">
+            Quran Tab is fully translated into English. You can choose your
+            preferred language from the settings page between English and Arabic
+            and it will be applied to the whole extension and be saved for you.
+          </p>
+        </div>
+      </div>
+      <section class="section section--one-column" id="download">
+        <h2 class="section--one-column__title">Download the extension</h2>
+        <p class="section--one-column__text">
+          You can download the extension from the Chrome Web Store or the
+          Microsoft Edge Add-ons Store. It's free and always will be.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <img
+              class="card__img"
+              src="./images/chrome.svg"
+              alt="Quran tab's chrome link"
+            />
+            <h3 class="card__title">Add to Chrome</h3>
+            <a
+              class="section__button button card__button"
+              target="_blank"
+              href="https://bit.ly/qt-chrome"
+              >Install Extension</a
+            >
+          </div>
+          <div class="card">
+            <img
+              class="card__img"
+              src="./images/microsoft-edge.svg"
+              alt="Quran tab's edge link"
+            />
+            <h3 class="card__title">Add to Edge</h3>
+            <a
+              class="section__button button card__button"
+              target="_blank"
+              href="https://bit.ly/qt-chrome"
+              >Install Extension</a
+            >
+          </div>
+          <div class="card">
+            <img
+              class="card__img"
+              src="./images/firefox.svg"
+              alt="Quran tab's firefox link"
+            />
+            <h3 class="card__title">Add to Firefox</h3>
+            <a
+              class="section__button button card__button button--disabled"
+              target="_blank"
+              href="https://bit.ly/qt-chrome"
+              >Comming soon</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="section section--one-column" id="faq">
+        <h2 class="section--one-column__title">Frequently Asked Questions</h2>
+        <p class="section--one-column__text">
+          Here are some of the most frequently asked questions about Quran Tab.
+          If you have any other questions, please feel free to contact us.
+        </p>
+        <ul class="faq">
+          <li class="faq__row">
+            <!-- <input type="checkbox" id="faq1" class="faq__input" /> -->
+            <input type="radio" name="faqGroup" id="faq1" class="faq__input" />
+            <label for="faq1" class="faq__question">What's Quran Tab?</label>
+            <img
+              class="faq__arrow"
+              src="./images/icon-arrow.svg"
+              alt="arrow icon"
+            />
+            <p class="faq__answer">
+              Quran Tab is a Chrome extension that replaces your new tab with a
+              random ayah from the Quran. It keeps you inspired by a verse from
+              the Quran every time you open a new tab.
+            </p>
+          </li>
+          <li class="faq__row">
+            <!-- <input type="checkbox" id="faq2" class="faq__input" /> -->
+            <input type="radio" name="faqGroup" id="faq2" class="faq__input" />
+            <label for="faq2" class="faq__question">How can I use it?</label>
+            <img
+              class="faq__arrow"
+              src="./images/icon-arrow.svg"
+              alt="arrow icon"
+            />
+            <p class="faq__answer">
+              You can download the extension from the Chrome Web Store or the
+              Microsoft Edge Add-ons Store and it will be added to your browser
+              and replace your new tab with a random ayah from the Quran.
+            </p>
+          </li>
+          <li class="faq__row">
+            <!-- <input type="checkbox" id="faq3" class="faq__input" /> -->
+            <input type="radio" name="faqGroup" id="faq3" class="faq__input" />
+            <label for="faq3" class="faq__question"
+              >Is there a mobile app?</label
+            >
+            <img
+              class="faq__arrow"
+              src="./images/icon-arrow.svg"
+              alt="arrow icon"
+            />
+            <p class="faq__answer">
+              No, Quran Tab is only available as a browser extension for now.
+            </p>
+          </li>
+          <li class="faq__row">
+            <!-- <input type="checkbox" id="faq4" class="faq__input" /> -->
+            <input type="radio" name="faqGroup" id="faq4" class="faq__input" />
+            <label for="faq4" class="faq__question"
+              >What about other chromium browsers?</label
+            >
+            <img
+              class="faq__arrow"
+              src="./images/icon-arrow.svg"
+              alt="arrow icon"
+            />
+            <p class="faq__answer">
+              It's available for all chromium browsers that supports replacing
+              the new tab page like Brave, Vivaldi, and more.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <footer class="footer">
+        <div class="footer__right">
+          <img
+            class="footer__right-logo"
+            src="./images/logo.png"
+            alt="quran tab logo"
+          />
+          <p class="footer__right-title">Quran Tab</p>
+        </div>
+        <div class="footer__left">&#169 2024 Quran Tab. All rights reserved</div>
+      </footer>
+    </div>
+  </body>
+</html>
