@@ -62,7 +62,7 @@
           />
         </div>
       </section>
-      <div class="section" id="features">
+      <section class="section" id="features">
         <div class="section__img">
           <img
             class="section__img-screen"
@@ -78,8 +78,8 @@
             also choose to show the translation or not. It's all up to you.
           </p>
         </div>
-      </div>
-      <div class="section">
+      </section>
+      <section class="section">
         <div class="section__content">
           <h2 class="section__title">Track What’s New</h2>
           <p class="section__text">
@@ -94,8 +94,8 @@
             alt="Quran tab's track what's new feature"
           />
         </div>
-      </div>
-      <div class="section">
+      </section>
+      <section class="section">
         <div class="section__img">
           <img
             class="section__img-screen"
@@ -111,7 +111,7 @@
             and it will be applied to the whole extension and be saved for you.
           </p>
         </div>
-      </div>
+      </section>
       <section class="section section--one-column" id="download">
         <h2 class="section--one-column__title">Download the extension</h2>
         <p class="section--one-column__text">
@@ -173,7 +173,9 @@
           <li class="faq__row">
             <!-- <input type="checkbox" id="faq1" class="faq__input" /> -->
             <input type="radio" name="faqGroup" id="faq1" class="faq__input" />
-            <label for="faq1" class="faq__question">What's Quran Tab?</label>
+            <label for="faq1" class="faq__question" tabindex="0"
+              >What's Quran Tab?</label
+            >
             <img
               class="faq__arrow"
               src="./images/icon-arrow.svg"
@@ -188,7 +190,9 @@
           <li class="faq__row">
             <!-- <input type="checkbox" id="faq2" class="faq__input" /> -->
             <input type="radio" name="faqGroup" id="faq2" class="faq__input" />
-            <label for="faq2" class="faq__question">How can I use it?</label>
+            <label for="faq2" class="faq__question" tabindex="0"
+              >How can I use it?</label
+            >
             <img
               class="faq__arrow"
               src="./images/icon-arrow.svg"
@@ -203,7 +207,7 @@
           <li class="faq__row">
             <!-- <input type="checkbox" id="faq3" class="faq__input" /> -->
             <input type="radio" name="faqGroup" id="faq3" class="faq__input" />
-            <label for="faq3" class="faq__question"
+            <label for="faq3" class="faq__question" tabindex="0"
               >Is there a mobile app?</label
             >
             <img
@@ -218,7 +222,7 @@
           <li class="faq__row">
             <!-- <input type="checkbox" id="faq4" class="faq__input" /> -->
             <input type="radio" name="faqGroup" id="faq4" class="faq__input" />
-            <label for="faq4" class="faq__question"
+            <label for="faq4" class="faq__question" tabindex="0"
               >What about other chromium browsers?</label
             >
             <img
@@ -242,8 +246,11 @@
           />
           <p class="footer__right-title">Quran Tab</p>
         </div>
-        <div class="footer__left">&#169 2024 Quran Tab. All rights reserved</div>
+        <div class="footer__left">
+          &copy; 2024 Quran Tab. All rights reserved
+        </div>
       </footer>
     </div>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
